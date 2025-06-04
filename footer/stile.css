@@ -1,0 +1,164 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-left {
+    flex: 1 1 300px;
+}
+
+.footer-left img.mycologo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #fff;
+    background-color: #111;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #222;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 6px 0;
+    line-height: 1.6;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
+
+/* Footer Links */
+.footer-links {
+    flex: 2 1 600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 180px;
+}
+
+.footer-links div h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-links li:hover {
+    color: #00ffcc;
+}
+
+/* Subscribe Section */
+.subscribe {
+    flex: 1 1 300px;
+}
+
+.subscribe h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    position: relative;
+    right: 400px;
+}
+
+.subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 14px;
+    position: relative;
+    right: 400px;
+    top: 40px;
+}
+
+.subscribe input[type="email"]::placeholder {
+    color: #ccc;
+}
+
+.subscribe label {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #ccc;
+    position: relative;
+    right: 400px;
+    top: 40px;
+}
+
+.subscribe input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.subscribe a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+.subscribe button {
+    background: transparent;
+    color: white;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    bottom: 30px;
+}
+
+.subscribe button:hover {
+    background: white;
+    color: black;
+}
+
+/* Copyright */
+.footer .copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #888;
+}
