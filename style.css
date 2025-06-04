@@ -1,13 +1,15 @@
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 
 header {
     background-image: url(img/1promyc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    width: 100%;
+    height: 717px;
+
 
 
 
@@ -62,6 +64,31 @@ header {
     cursor: pointer;
 }
 
+.firstsection {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.firsthead {
+    text-align: center;
+    font-size: 38px;
+}
+
+.veganpara {
+    text-align: center;
+    color: black;
+    font-family: lato;
+    padding-bottom: 120px;
+    position: relative;
+    font-size: 25px;
+    padding-top: 30px;
+    overflow: hidden;
+
+
+}
+
+
 h1 {
     font-family: 'Permanent Marker';
     font-size: 40px;
@@ -85,7 +112,7 @@ h4 {
 
 
 
-h2 {
+/* h2 {
     font-family: 'Lato';
     font-size: 30px;
     text-align: left;
@@ -93,82 +120,91 @@ h2 {
     padding-left: 300px;
 
 
-}
+} */
 
-.vegan {
-    color: black;
-    text-align: left;
-    padding-left: 300px;
-    font-family: lato;
-    padding-bottom: 120px;
-    position: relative;
-
-    font-size: smaller;
-    padding-top: 30px;
-    overflow: hidden;
-
+.secondcontent{
+margin-left: 90px;
+margin-top: 50px;
 
 }
-
-.section2 h2 {
-    font-family: 'Permanent Marker';
-    font-size: 30px;
+.secondhead{
+ font-family: 'Permanent Marker';
     color: rgb(255, 255, 255);
-    padding-left: 105px;
-    position: relative;
-    bottom: 30px;
+    font-size: 50px;
+}
+.secondpara{
+    font-size: 25px;
+    margin-top: 0px;
+    color: white;
+        font-family: lato;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
 }
 
-p {
+
+
+/* p {
     text-align: left;
     color: rgb(255, 255, 255);
     font-size: 13px;
     bottom: 20px;
-    padding-left: 100px;
     font-family: lato;
     position: relative;
 
 
-}
+} */
 
 .mycorenaimg {
-    height: 380px;
+    width: 100%;
 }
 
 .section2 {
     display: flex;
-    width: 1320px;
     background-color: #202020;
+}
+/* .iconimg{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.iconss{
+    align-items: center;
+    margin-left: 30px;
+} */
+
+
+.sec3img{
+  display: flex;
+  padding: 20px;
+  gap: 400px;
+  
+  justify-content: center;
 }
 
 
-h3 {
-    text-align: left;
+
+
+
+ .thirdhead{
+    text-align: center;
     font-family: lato;
-    font-size: 28px;
+    font-size: 38px;
     padding-top: 50px;
     position: relative;
-    padding-left: 520px;
 }
 
 .NN {
+       text-align: center;
     color: black;
-    text-align: left;
-    font-family: "lato";
-    font-size: 15px;
-    padding-left: 250px;
+    font-family: lato;
+    position: relative;
+    font-size: 25px;
     padding-top: 30px;
-}
+    overflow: hidden;
+} 
 
-table {
-    background-color: white;
-    margin-left: 10px;
-    gap: 50px;
-    border-collapse: separate;
-    border-spacing: 100px 0px;
-    font-size: 18px;
-}
 
 .percentage {
     font-family: "lato";
@@ -183,7 +219,13 @@ table {
     padding-left: 350px;
 }
 
-.whatcan {
+
+
+
+
+/* 
+
+  .section4  .makewithpro {
     padding-right: 350px;
     color: black;
     position: relative;
@@ -193,14 +235,14 @@ table {
     right: 45px;
 }
 
-.features {
+   .section4 .features {
     padding-right: 350px;
     color: black;
     position: relative;
     bottom: 325px;
     font-size: 13px;
     right: 45px;
-}
+} */
 
 .section5 {
     background-image: url(img/blurredpromyc.jpg);
@@ -787,7 +829,7 @@ table {
         background-image: url(img/1promyc.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 818px;
+        width: 760px;
         height: 650px;
         background-size: contain;
         background-position: center top;
@@ -918,7 +960,7 @@ table {
 
     .section2 {
         display: flex;
-        width: 818px;
+        width: 760px;
         background-color: #202020;
     }
 
@@ -942,571 +984,579 @@ table {
     }
 
     .table {
-    background-color: white;
-    margin-left: 60px;
-    gap: 50px;
-    border-collapse: separate;
-    border-spacing: 100px 0px;
-    font-size: 18px;
-}
+        background-color: white;
+        margin-left: 100px;
+        gap: 50px;
+        border-collapse: separate;
+        border-spacing: 100px 0px;
+        font-size: 18px;
+    }
 
 
     .makepromyc {
-        width: 410px;
+        width: 351px;
         height: 240px;
         padding-top: 100px;
         padding-left: 409px;
 
-    .whatcan {
-        padding-right: 350px;
-        color: black;
-        position: relative;
-        bottom: 260px;
-        padding-bottom: 25px;
-        font-size: 20px;
-        right: 45px;
-    }
-
-    .features {
-        padding-right: 350px;
-        color: black;
-        position: relative;
-        bottom: 270px;
-        font-size: 12px;
-        right: 45px;
-    }
-
-    .section5 {
-        background-image: url(img/blurredpromyc.jpg);
-        position: relative;
-        bottom: 263px;
-        padding-top: 400px;
-        background-repeat: no-repeat;
-        padding-left: 100px;
-        width: 88%;
-        height: 400px;
-    }
-
-    .advantages {
-        color: black;
-        text-align: center;
-        font-size: 25px;
-        padding-bottom: 500px;
-        position: relative;
-        bottom: 330px;
-        padding-right: 10%;
-        font-family: "lato";
-        padding-right: 200px;
-    }
-
-    .size {
-        color: black;
-        font-size: 15px;
-        position: relative;
-        bottom: 830px;
-        padding-left: 0px;
-        text-align: center;
-        font-family: "lato";
-        padding-right: 10%;
-    }
-
-    .colour1 {
-        background-color: rgba(0, 255, 255, 0);
-        position: relative;
-        bottom: 800px;
-        right: 60px;
-    }
-
-    .colour2 {
-        background-color: rgba(0, 255, 255, 0);
-        right: 60px;
-        position: relative;
-        bottom: 765px;
-    }
-
-    .dd {
-        font-family: "lato";
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .safe {
-        font-family: "lato";
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .row {
-        width: 300px;
-    }
-
-    .section6 img {
-        position: relative;
-        left: 376px;
-        width: 657px;
-        height: 216px;
-
-    }
-
-    .section6 {
-        display: flex;
-        background-color: rgb(41, 41, 41);
-        position: relative;
-        bottom: 358px;
-        width: 50%;
-        height: 283px;
-
-    }
-
-    .fat {
-        position: relative;
-        right: 380px;
-        font-family: 'Permanent Marker';
-        color: white;
-        bottom: 85px;
-        font-size: 12px;
-
-    }
-
-    .both {
-        font-family: "lato";
-        font-size: 7px;
-        position: relative;
-        right: 340px;
-        bottom: 90px;
-    }
-
-    .section7 {
-        background-image: url(img/promycimage.jpg);
-        position: relative;
-        bottom: 455px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 350px;
-        width: 764px;
-    }
-
-    .faty {
-        background-color: rgba(240, 248, 255, 0);
-        right: 5px;
-        position: relative;
-        bottom: 10px;
-    }
-
-    .section7 p {
-        color: black;
-        padding-left: 500px;
-        position: relative;
-        bottom: 25px;
-        position: relative;
-        right: 240px;
-        font-size: 12px;
-    }
-
-    .section7 h3 {
-        text-align: center;
-        position: relative;
-        padding-left: 0px;
-        font-size: 20px;
-        padding-bottom: 20px;
-
-    }
-
-    .melt {
-        font-size: 15px;
-        text-align: center;
-
-    }
-
-    .sectionimg8 {
-        position: relative;
-        bottom: 455px;
-        width: 390px;
-        height: 256px;
-
-
-    }
-
-    .whath3 {
-        position: relative;
-        left: 170px;
-        bottom: 760px;
-        font-size: 20px;
-    }
-
-    .section8 p {
-        position: relative;
-        left: 320px;
-        color: black;
-        bottom: 760px;
-        font-size: 11px;
-        font-family: 'lato';
-    }
-    .section9 {
-    background-color: #ffe8be;
-    position: relative;
-    bottom: 750px;
-    height: 1000px;
-    width: 760px;
-}
-
-.section9 h2 {
-    font-size: 25px;
-    position: relative;
-    bottom: 30px;
-}
-
-.section9 .p10 {
-    color: black;
-    position: relative;
-    padding-left: 111px;
-    font-size: 11px;
-    bottom: 40px;
-
-}
-
-.box1 {
-    width: 150px;
-    height: 310px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    text-align: center;
-    font-family: "lato";
-    background-color: white;
-    margin-left: 80px;
-}
-
-.box1 img {
-    width: 100%;
-    /* Makes image fit the box width */
-    height: auto;
-    border-radius: 5px;
-}
-
-.section9 .box1 .p11 {
-
-    padding-left: 0px;
-    font-size: 11px;
-    font-family: 'lato';
-    color: black;
-}
-
-.box1 h4 {
-    font-size: 20px;
-    color: #333;
-    position: relative;
-  
-}
-
-.box2 {
-    width: 150px;
-    height: 310px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    text-align: center;
-    font-family: "lato";
-    background-color: white;
-    margin-left: 295px;
-    position: relative;
-    bottom: 343px;
-}
-
-.box2 img {
-    width: 100%;
-    /* Makes image fit the box width */
-    height: auto;
-    border-radius: 5px;
-}
-
-.box2 h4 {
-    font-size: 20px;
-    color: black;
-    position: relative;
-    top: 10px;
-
-}
-
-.box2 .p12 {
-    padding-left: 10px;
-    font-size: 11px;
-    font-family: 'lato';
-    color: black;
-}
-
-.box3 {
-    width: 150px;
-    height: 310px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    text-align: center;
-    font-family: "lato";
-    background-color: white;
-    margin-left: 510px;
-    position: relative;
-    bottom: 686px;
-}
-
-.box3 img {
-    width: 100%;
-    /* Makes image fit the box width */
-    height: auto;
-    border-radius: 5px;
-}
-
-.box3 h4 {
-    font-size: 20px;
-    color: black;
-    position: relative;
-    top: 10px;
-}
-
-.box3 .p13 {
-    padding-left: 10px;
-    font-size: 11px;
-    font-family: 'lato';
-    color: black;
-}
-
-.box4 {
-    width: 150px;
-    height: 310px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    text-align: center;
-    font-family: "lato";
-    background-color: white;
-    margin-left: 115px;
-    position: relative;
-    left: 50px;
-    bottom: 650px;
-}
-
-.box4 img {
-    width: 100%;
-    /* Makes image fit the box width */
-    height: auto;
-    border-radius: 5px;
-}
-
-.box4 h4 {
-    font-size: 20px;
-    color: black;
-    position: relative;
-    top: 10px;
-}
-
-.box4 .p14 {
-    padding-left: 10px;
-    font-size: 11px;
-    font-family: 'lato';
-    color: black;
-}
-
-.box5 {
-    width: 150px;
-    height: 310px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    text-align: center;
-    font-family: "lato";
-    background-color: white;
-    margin-left: 440px;
-    position: relative;
-    right: 40px;
-    bottom: 992px;
-}
-
-.box5 img {
-    width: 100%;
-    /* Makes image fit the box width */
-    height: auto;
-    border-radius: 5px;
-}
-
-
-.schnitzel {
-
-    font-size: 20px;
-    color: black;
-
-bottom: 22px;
-    position: relative;
-    padding-left: 20px;
-}
-
-.box5 .p15 {
-    padding-left: 10px;
-    font-size: 11px;
-    font-family: 'lato';
-    color: black;
-    bottom: 240px;
-    position: relative;
-
-}
-.section10 {
-    height: 0px;
-
-}
-
-.abc {
-    position: relative;
-    bottom: 580px;
-    padding-left: 100px;
-    height: 80px;
-}
-
-.abc2 {
-    position: relative;
-    bottom: 580px;
-}
-
-.c3 {
-    position: relative;
-    bottom: 570px;
-    left: 85px;
-}
-
-.workh2 {
-    color: black;
-    font-family: 'Permanent Marker';
-    position: relative;
-    bottom: 930px;
-    margin-left: 243px;
-}
-.restp {
-    color: black;
-    font-family: 'lato';
-    position: relative;
-    margin-left: 265px;
-    bottom: 930px;
-    font-size: 11px;
-}
-
-.button {
-    padding: 10px;
-    border-radius: 15px;
-    position: relative;
-    bottom: 850px;
-    margin-left: 365px;
-}
-  .footer-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .footer-left, 
-    .footer-links, 
-    .subscribe {
-        width: 100%;
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .footer-left .contact-info {
-        font-size: 14px;
-    }
-
-    .social-icons a {
-        margin: 0 8px;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        margin-left: 0;
-    }
-
-    .footer-links > div {
-        margin-bottom: 20px;
-    }
-
-    .myco1,
-    .shorts,
-    .connect,
-    .myul1,
-    .faq,
-    .fb {
-        all: unset;
-        display: block;
-        color: white;
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    .myco1{
-        font-size: 20px;
-        right: 120px;
-        position: relative;
-    }
-
-    .myul1 li{
-        position: relative;
-        font-size: 11px;
-        right: 120px;
-    }
-    .shorts{
-        position: relative;
-        bottom: 124px;
-        left: 120px;
-
-    }
-    .faq li{
-        position: relative;
-        bottom: 120px;
-        left: 115px;
-        font-size: 11px;
-    }
-    .fb{
-        list-style: none;
-        margin: 5px 0;
-        font-size: 11px;
-    }
-    .connect{
-        position: relative;
-
-    }
-
-    .subscribe h3{
-    
-        color: white;
-        font-size: medium;
-        bottom: 615px;
-        font-size: 10px;
-    }
-
-    .subscribe input[type="email"] {
-        width: 20%;
-        position: relative;
-        bottom: 590px;
-    }
-
-    .subscribe label {
-        font-size: 11px;
-    }
-
-    .subscribe button {
-        width: 16%;
-        position: relative;
-        border-radius: 20px;
-        bottom:665px ;
-        left: 170px;
-    }
-
-    .copyright {
-        font-size: 12px;
-        text-align: center;
-        color: #aaa;
-        padding-top: 20px;
-    }
+        .makewithpro {
+            padding-right: 350px;
+            color: black;
+            position: relative;
+            bottom: 255px;
+            font-size: 20px;
+            right: 45px;
+        }
+
+        .features {
+            padding-right: 350px;
+            color: black;
+            position: relative;
+            bottom: 203px;
+            font-size: 11px;
+            right: 45px;
+        }
+
+        .section5 {
+            background-image: url(img/blurredpromyc.jpg);
+            position: relative;
+            bottom: 174px;
+            padding-top: 400px;
+            background-repeat: no-repeat;
+            padding-left: 100px;
+            width: 88%;
+            height: 400px;
+        }
+
+        .advantages {
+            color: black;
+            text-align: center;
+            font-size: 25px;
+            padding-bottom: 500px;
+            position: relative;
+            bottom: 380px;
+            padding-right: 25%;
+            font-family: "lato";
+            padding-right: 200px;
+        }
+
+        .size {
+            color: black;
+            font-size: 11px;
+            position: relative;
+            bottom: 846px;
+            padding-left: 0px;
+            text-align: center;
+            font-family: "lato";
+            padding-right: 10%;
+        }
+
+        .colour1 {
+            background-color: rgba(0, 255, 255, 0);
+            position: relative;
+            bottom: 800px;
+            right: 45px;
+        }
+
+        .colour2 {
+            background-color: rgba(0, 255, 255, 0);
+            right: 60px;
+            position: relative;
+            bottom: 765px;
+        }
+
+        .dd {
+            font-family: "lato";
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .safe {
+            font-family: "lato";
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .row {
+            width: 300px;
+        }
+
+        .section6 img {
+            position: relative;
+            left: 376px;
+            width: 657px;
+            height: 216px;
+
+        }
+
+        .section6 {
+            display: flex;
+            background-color: rgb(41, 41, 41);
+            position: relative;
+            bottom: 358px;
+            width: 50%;
+            height: 283px;
+
+        }
+
+        .fat {
+            position: relative;
+            right: 380px;
+            font-family: 'Permanent Marker';
+            color: white;
+            bottom: 85px;
+            font-size: 12px;
+
+        }
+
+        .both {
+            font-family: "lato";
+            font-size: 7px;
+            position: relative;
+            right: 340px;
+            bottom: 90px;
+        }
+
+        .section7 {
+            background-image: url(img/promycimage.jpg);
+            position: relative;
+            bottom: 455px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 350px;
+            width: 764px;
+        }
+
+        .faty {
+            background-color: rgba(240, 248, 255, 0);
+            right: 5px;
+            position: relative;
+            bottom: 10px;
+        }
+
+        .section7 p {
+            color: black;
+            padding-left: 500px;
+            position: relative;
+            bottom: 25px;
+            position: relative;
+            right: 240px;
+            font-size: 12px;
+        }
+
+        .section7 h3 {
+            text-align: center;
+            position: relative;
+            padding-left: 0px;
+            font-size: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        .melt {
+            font-size: 15px;
+            text-align: center;
+
+        }
+
+        .sectionimg8 {
+            position: relative;
+            bottom: 455px;
+            width: 390px;
+            height: 256px;
+
+
+        }
+
+        .whath3 {
+            position: relative;
+            left: 170px;
+            bottom: 760px;
+            font-size: 20px;
+        }
+
+        .section8 p {
+            position: relative;
+            left: 320px;
+            color: black;
+            bottom: 760px;
+            font-size: 11px;
+            font-family: 'lato';
+        }
+
+        .section9 {
+            background-color: #ffe8be;
+            position: relative;
+            bottom: 750px;
+            height: 1000px;
+            width: 760px;
+        }
+
+        .section9 h2 {
+            font-size: 25px;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .section9 .p10 {
+            color: black;
+            position: relative;
+            padding-left: 111px;
+            font-size: 11px;
+            bottom: 40px;
+
+        }
+
+        .box1 {
+            width: 150px;
+            height: 310px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            text-align: center;
+            font-family: "lato";
+            background-color: white;
+            margin-left: 80px;
+        }
+
+        .box1 img {
+            width: 100%;
+            /* Makes image fit the box width */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .section9 .box1 .p11 {
+
+            padding-left: 0px;
+            font-size: 11px;
+            font-family: 'lato';
+            color: black;
+        }
+
+        .box1 h4 {
+            font-size: 20px;
+            color: #333;
+            position: relative;
+
+        }
+
+        .box2 {
+            width: 150px;
+            height: 310px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            text-align: center;
+            font-family: "lato";
+            background-color: white;
+            margin-left: 295px;
+            position: relative;
+            bottom: 343px;
+        }
+
+        .box2 img {
+            width: 100%;
+            /* Makes image fit the box width */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .box2 h4 {
+            font-size: 20px;
+            color: black;
+            position: relative;
+            top: 10px;
+
+        }
+
+        .box2 .p12 {
+            padding-left: 10px;
+            font-size: 11px;
+            font-family: 'lato';
+            color: black;
+        }
+
+        .box3 {
+            width: 150px;
+            height: 310px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            text-align: center;
+            font-family: "lato";
+            background-color: white;
+            margin-left: 510px;
+            position: relative;
+            bottom: 686px;
+        }
+
+        .box3 img {
+            width: 100%;
+            /* Makes image fit the box width */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .box3 h4 {
+            font-size: 20px;
+            color: black;
+            position: relative;
+            top: 10px;
+        }
+
+        .box3 .p13 {
+            padding-left: 10px;
+            font-size: 11px;
+            font-family: 'lato';
+            color: black;
+        }
+
+        .box4 {
+            width: 150px;
+            height: 310px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            text-align: center;
+            font-family: "lato";
+            background-color: white;
+            margin-left: 115px;
+            position: relative;
+            left: 50px;
+            bottom: 650px;
+        }
+
+        .box4 img {
+            width: 100%;
+            /* Makes image fit the box width */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .box4 h4 {
+            font-size: 20px;
+            color: black;
+            position: relative;
+            top: 10px;
+        }
+
+        .box4 .p14 {
+            padding-left: 10px;
+            font-size: 11px;
+            font-family: 'lato';
+            color: black;
+        }
+
+        .box5 {
+            width: 150px;
+            height: 310px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            text-align: center;
+            font-family: "lato";
+            background-color: white;
+            margin-left: 440px;
+            position: relative;
+            right: 40px;
+            bottom: 992px;
+        }
+
+        .box5 img {
+            width: 100%;
+            /* Makes image fit the box width */
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+        .schnitzel {
+
+            font-size: 20px;
+            color: black;
+
+            bottom: 22px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .box5 .p15 {
+            padding-left: 10px;
+            font-size: 11px;
+            font-family: 'lato';
+            color: black;
+            bottom: 240px;
+            position: relative;
+
+        }
+
+        .section10 {
+            height: 0px;
+
+        }
+
+        .abc {
+            position: relative;
+            bottom: 580px;
+            padding-left: 100px;
+            height: 80px;
+        }
+
+        .abc2 {
+            position: relative;
+            bottom: 580px;
+        }
+
+        .c3 {
+            position: relative;
+            bottom: 570px;
+            left: 85px;
+        }
+
+        .workh2 {
+            color: black;
+            font-family: 'Permanent Marker';
+            position: relative;
+            bottom: 930px;
+            margin-left: 243px;
+        }
+
+        .restp {
+            color: black;
+            font-family: 'lato';
+            position: relative;
+            margin-left: 265px;
+            bottom: 930px;
+            font-size: 11px;
+        }
+
+        .button {
+            padding: 10px;
+            border-radius: 15px;
+            position: relative;
+            bottom: 850px;
+            margin-left: 365px;
+        }
+
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .footer-left,
+        .footer-links,
+        .subscribe {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .footer-left .contact-info {
+            font-size: 14px;
+        }
+
+        .social-icons a {
+            margin: 0 8px;
+        }
+
+        .footer-links {
+            flex-direction: column;
+            margin-left: 0;
+        }
+
+        .footer-links>div {
+            margin-bottom: 20px;
+        }
+
+        .myco1,
+        .shorts,
+        .connect,
+        .myul1,
+        .faq,
+        .fb {
+            all: unset;
+            display: block;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .myco1 {
+            font-size: 20px;
+            right: 120px;
+            position: relative;
+        }
+
+        .myul1 li {
+            position: relative;
+            font-size: 11px;
+            right: 120px;
+        }
+
+        .shorts {
+            position: relative;
+            bottom: 124px;
+            left: 120px;
+
+        }
+
+        .faq li {
+            position: relative;
+            bottom: 120px;
+            left: 115px;
+            font-size: 11px;
+        }
+
+        .fb {
+            list-style: none;
+            margin: 5px 0;
+            font-size: 11px;
+        }
+
+        .connect {
+            position: relative;
+
+        }
+
+        .subscribe h3 {
+
+            color: white;
+            font-size: medium;
+            bottom: 615px;
+            font-size: 10px;
+        }
+
+        .subscribe input[type="email"] {
+            width: 20%;
+            position: relative;
+            bottom: 590px;
+        }
+
+        .subscribe label {
+            font-size: 11px;
+        }
+
+        .subscribe button {
+            width: 16%;
+            position: relative;
+            border-radius: 20px;
+            bottom: 665px;
+            left: 170px;
+        }
+
+        .copyright {
+            font-size: 12px;
+            text-align: center;
+            color: #aaa;
+            padding-top: 20px;
+        }
 
     }
 }

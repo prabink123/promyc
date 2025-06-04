@@ -1,164 +1,288 @@
-.footer {
-    background-color: #000;
-    color: #fff;
-    padding: 60px 40px;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.footer-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.footer-left {
-    flex: 1 1 300px;
-}
-
-.footer-left img.mycologo {
-    width: 180px;
-    margin-bottom: 20px;
-}
-
-.social-icons {
-    margin: 20px 0;
-}
-
-.social-icons a {
-    display: inline-block;
-    color: #fff;
-    background-color: #111;
-    border-radius: 4px;
-    padding: 8px;
-    margin-right: 8px;
-    font-size: 18px;
-    transition: background 0.3s;
-}
-
-.social-icons a:hover {
-    background-color: #222;
-}
-
-.contact-info p {
-    font-size: 14px;
-    margin: 6px 0;
-    line-height: 1.6;
-}
-
-.contact-info i {
-    margin-right: 8px;
-}
-
-/* Footer Links */
-.footer-links {
-    flex: 2 1 600px;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 180px;
-}
-
-.footer-links div h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-links li {
-    font-size: 14px;
-    margin-bottom: 6px;
-    cursor: pointer;
-    transition: color 0.3s;
-}
-
-.footer-links li:hover {
-    color: #00ffcc;
-}
-
-/* Subscribe Section */
-.subscribe {
-    flex: 1 1 300px;
-}
-
-.subscribe h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    position: relative;
-    right: 400px;
-}
-
-.subscribe input[type="email"] {
+header {
+    background-image: url(image/1promyc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    color: white;
-    margin-bottom: 15px;
-    font-size: 14px;
-    position: relative;
-    right: 400px;
-    top: 40px;
+    height: 717px;
 }
 
-.subscribe input[type="email"]::placeholder {
-    color: #ccc;
-}
 
-.subscribe label {
-    font-size: 13px;
+.navbar {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    color: #ccc;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
-    right: 400px;
-    top: 40px;
+
 }
 
-.subscribe input[type="checkbox"] {
-    margin-right: 10px;
+.logo {
+    width: 80px;
+    padding-left: 500px;
+
+
 }
 
-.subscribe a {
-    color: #00ffff;
-    text-decoration: underline;
-}
-
-.subscribe button {
-    background: transparent;
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
     color: white;
-    padding: 10px 25px;
-    border: 2px solid white;
-    border-radius: 25px;
-    font-size: 10px;
+
+    font-size: 17px;
+    padding-left: 230px;
+    font-family: 'lato';
+}
+
+.nav-list li {
     cursor: pointer;
-    transition: background 0.3s, color 0.3s;
+}
+
+.search {
+    width: 15px;
+    cursor: pointer;
+    padding-right: 230px;
+}
+
+/* Hamburger menu button */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: lighter;
+    bottom: 100px;
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+    bottom: 120px;
+    font-family: 'lato';
+    position: relative;
+}
+h2 {
+    font-family: 'Lato';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+ 
+
+
+}
+
+.vegan {
+    color: black;
+    text-align: center;
+   
+    font-family: lato;
+    padding-bottom: 120px;
+    position: relative;
+right: 110px;
+    font-size: 17px;
+    padding-top: 30px;
+    overflow: hidden;
+
+
+}
+.section2 h2 {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 105px;
     position: relative;
     bottom: 30px;
+
 }
 
-.subscribe button:hover {
-    background: white;
-    color: black;
-}
-
-/* Copyright */
-.footer .copyright {
+p {
     text-align: center;
-    margin-top: 50px;
-    font-size: 12px;
-    color: #888;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    bottom: 20px;
+    padding-left: 350px;
+    font-family: lato;
+    position: relative;
+
+
 }
+
+.mycorenaimg {
+    height: auto;
+    width: 1000px;
+
+}
+
+.section2 {
+    display: flex;
+    
+    background-color: #202020;
+}
+h3 {
+    text-align: left;
+    font-family: lato;
+    font-size: 28px;
+    padding-top: 50px;
+    position: relative;
+    padding-left: 520px;
+}
+
+.NN {
+    color: black;
+    text-align: center;
+    font-family: "lato";
+    font-size: 15px;
+  
+    padding-top: 30px;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    margin-left: 170px;
+    gap: 50px;
+    border-collapse: separate;
+    border-spacing: 100px 0px;
+    font-size: 18px;
+}
+
+.percentage {
+    font-family: "lato";
+    font-size: 13px;
+    text-align: center;
+}
+
+.makepromyc {
+    width: 630px;
+    height: 300px;
+    padding-top: 55px;
+    padding-left: 801px;
+}
+
+.makewithpro {
+    padding-right: 350px;
+    color: black;
+    position: relative;
+    bottom: 253px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    right: 45px;
+}
+.features {
+    padding-right: 350px;
+    color: black;
+    position: relative;
+    bottom: 263px;
+    font-size: 13px;
+    right: 45px;
+}
+.section5 {
+    background-image: url(image/blurredpromyc.jpg);
+    position: relative;
+    bottom: 174px;
+    padding-top: 400px;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    width: 91%;
+    height: auto;
+}
+
+.advantages {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 500px;
+    position: relative;
+    bottom: 330px;
+    padding-right: 10%;
+    font-family: "lato";
+
+}
+
+.size {
+    color: black;
+    font-size: 15px;
+    position: relative;
+    bottom: 830px;
+    padding-left: 100px;
+    text-align: center;
+    font-family: "lato";
+    padding-right: 10%;
+}
+
+.colour1 {
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    bottom: 800px;
+    right: 110px;
+}
+
+.colour2 {
+    background-color: rgba(0, 255, 255, 0);
+    right: 110px;
+    position: relative;
+    bottom: 760px;
+}
+
+.dd {
+    font-family: "lato";
+    font-size: 12px;
+    text-align: center;
+}
+
+.safe {
+    font-family: "lato";
+    font-size: 12px;
+    text-align: center;
+}
+
+.row {
+    width: 220px;
+}
+.section6 img {
+    position: relative;
+    left: 670px;
+    width: 657px;
+
+}
+
+.section6 {
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+    bottom: 740px;
+    width: 90%;
+
+}
+
+.fat {
+    position: relative;
+    right: 600px;
+    font-family: 'Permanent Marker';
+    color: white;
+    bottom: 50px;
+
+}
+
+.both {
+    font-family: "lato";
+    font-size: 12px;
+    position: relative;
+    right: 550px;
+    bottom: 50px;
+}
+
+
